@@ -1,0 +1,32 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.home input {
+    margin-right: 10px;
+}
+
+.noposts {
+    text-align: center;
+}
+.noposts a {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);   color: #fff;
+    border-radius: 5px;
+}
+@media screen and (max-width:500px) {
+
+.home h1 {
+font-size: 1.2em;
+}
+.home form {
+    margin-bottom: 1em;
+}
+}

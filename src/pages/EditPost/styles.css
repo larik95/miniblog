@@ -1,0 +1,36 @@
+.edit_post {
+    text-align: center;
+    width: 40%;
+}
+
+.edit_post h2 {
+    font-size: 2.3em;
+}
+.edit_post p {
+    color: #aaa;
+    margin-bottom: 2em;
+}
+.edit_post button {
+    margin-top: 2em;
+}
+.preview {
+    margin-top: 2em;
+    max-width: 280px;
+    max-height: 396px;
+}
+.preview img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+@media screen and (max-width:500px) {
+
+    .edit_post {
+        width: 90%;
+    }
+    
+.edit_post h2 {
+    font-size: 2em;
+}
+
+}

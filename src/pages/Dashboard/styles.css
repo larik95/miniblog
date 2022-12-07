@@ -1,0 +1,70 @@
+.dashboard {
+  text-align: center;
+}
+.galery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 293px));
+  justify-content: center;
+  grid-gap: 20px;
+  padding-top: 20px;
+}
+.post-img {
+  position: relative;
+  display: block;
+  max-width: 280px;
+  max-height: 396px;
+}
+.post-img img {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  vertical-align: top;
+  object-fit: cover;
+}
+.btns {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.dashbtn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.dashboard .delete:hover {
+    color: red;
+}
+@media screen and (max-width:500px) {
+  .galery {
+    grid-template-columns: repeat(1, minmax(100px, 250px));
+    gap:2;
+  }
+  .post-img {
+    padding: 0;
+    margin:0;
+  }
+  .post-img img{
+    max-width: 300px;
+    max-height: 300px;
+
+  }
+  .btns {
+    margin-bottom: 1.5em;
+    max-width: 250px;
+    margin-right: 0;
+    justify-content: space-around
+  }
+ a.dashbtn {
+  margin: 0px;
+ } 
+ .noposts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+ .nopostsbtn  {
+  font-size: .7em;
+  display: flex;
+  justify-content: center;
+ }
+}

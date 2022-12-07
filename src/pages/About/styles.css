@@ -1,0 +1,19 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 3rem;
+    max-width: 600px;
+}
+.about p {
+    color: #aaa;
+    margin: 5px;
+    text-align: justify;
+}
+
+.about a {
+    display: block;
+    margin-top: 2em;
+
+}
